@@ -9,9 +9,11 @@
     "install": "npm install --prefix my-portfolio",
     "build": "npm run build --prefix my-portfolio",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d my-portfolio/build"
+    "deploy": "gh-pages -d my-portfolio/build -b main"
   },
   "devDependencies": {
     "gh-pages": "^6.2.0"
+  },
+  "dependencies": {
   }
 }
